@@ -31,11 +31,11 @@ def port_scan(target_host, port):
 
 def main():
     parser = argparse.ArgumentParser(description="FUCK NMAP")
-    parser.add_argument("host", help="Target IP")
+    parser.add_argument("IP", help="Target IP")
     
     args = parser.parse_args()
     
-    target_host = args.host
+    target_host = args.IP
     print ("Trash Nmap :)")
     print ("!! Only scannin for TCP ports !!")
     print(f"Running : {target_host}")
